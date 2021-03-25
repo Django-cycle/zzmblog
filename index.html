@@ -11,10 +11,20 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
+      coverpage: true,
 	  loadSidebar: true ,
-	  repo:'git@github.com:Django-cycle/zzmblog'
+	  repo:'Django-cycle',
+	  maxLevel: 6,
+	  subMaxLevel: 6,
+	  mergeNavbar: true,
+	  loadNavbar: 'ci.md',
+	  name: '长风渡',
     }
   </script>
+  <script src="//unpkg.com/docsify-copy-code"></script>
+  <script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-java.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-sql.js"></script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 </body>
